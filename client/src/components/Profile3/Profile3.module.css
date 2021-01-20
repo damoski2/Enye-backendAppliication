@@ -1,0 +1,102 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.cardCnt{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.surround{
+    background: #fff;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 1em 0;
+}
+
+.card1{
+    width: 85%;
+    margin: auto;
+}
+
+.lastLogin{
+    font-style: italic;
+    font-size: 13px;
+    color: #df0f4d;
+    text-align: right;
+    
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name img{
+    width: 13%;
+}
+
+.details{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.details div{
+    margin-bottom: 8px;
+}
+
+.details div small{
+    margin-left: 5px;
+    vertical-align: top;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.location img{
+    z-index: 50;
+}
+
+.location small{
+    z-index: 20;
+    background: rgb(77, 225, 252);
+    height: 17px;
+    padding: 7px 17px;
+    align-self: center;
+    border-radius: 10px;
+    margin-left: -2em;
+}
+
+.location span{
+    font-size: 9px;
+    align-self: center;
+    background: #3a7adb;
+    padding: 5px;
+    color: #fff;
+}
+
+.transaction{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width:1200px){
+    .surround{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,37 @@
+.App{
+    width: 95%;
+    margin: auto;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-section{
+    width: 70%;
+    border-right: .1px solid rgb(83, 83, 83,0.3);
+    
+}
+
+.other-section{
+    width: 30%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 4em;
+}
+
+.split{
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:768px){
+    .first-section{
+        width: 100%;
+    }
+
+    .split{
+        flex-direction: column;
+    }
+}
